@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<h1>Welcome to EduCore Dashboard 🎉</h1>
+
+<p>You have successfully logged in.</p>
+
+{% endblock %} 
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-md-2 bg-dark text-white min-vh-100 p-3">
+
+            <h3>EduCore</h3>
+            <hr>
+
+            <ul class="nav flex-column">
+
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="#">🏠 Dashboard</a>
+                </li>
+
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="#">👨‍🎓 Students</a>
+                </li>
+
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="#">🏢 Departments</a>
+                </li>
+
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="#">📚 Courses</a>
+                </li>
+
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="#">📄 Reports</a>
+                </li>
+
+                <li class="nav-item mt-4">
+                    <a class="nav-link text-danger" href="#">🚪 Logout</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="col-md-10 p-4">
+
+            <h2>Dashboard</h2>
+
+            <div class="row mt-4">
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Total Students</h5>
+                            <h2>0</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Departments</h5>
+                            <h2>0</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Courses</h5>
+                            <h2>0</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
